@@ -2,6 +2,10 @@
 🎀💅 <span style="color:#FF69B4;">Tóxica V1</span> 💅🎀
 </h1>
 
+<p align="center">
+  <img src="https://i.postimg.cc/SK086jrT/67a51f36-72b2-4a2b-b8e1-9de15d2bb52c.png" width="300" alt="NaufraBot V6" />
+</p>
+
 <p align="center">Bot de WhatsApp <b>femenino</b>, basado en NaufraBot Base V6.</p>
 
 ---
