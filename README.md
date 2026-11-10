@@ -15,23 +15,6 @@
 - Los comandos nuevos están en `fuction/toxica/femenino.js` (agrega uno nuevo en el objeto `H` y se registra solo)
 - La imagen del menú se cambia en `settings/settings.json` → `JpgBot`
 
----
-
-## 🧠 **¿Qué es NaufraBot V6?**
-
-🔥 **NaufraBot V6** es una versión mejorada del clásico bot de WhatsApp, totalmente optimizado para funcionar 24/7 en cualquier servidor y completamente gratuito en termux, con **más comandos, rendimiento y estabilidad**.
-
-- 🚀 Compatible con la última versión de **Baileys**
-- 💬 Juegos RPG integrados
-- 🧩 100% perzonalizable
-- 📦 Descargas (videos, música, stickers)
-- 🤖 Funciones con IA integradas
-- 🛡️ Protección AntiLink y AntiSpam para tu grupo 
-
----
-
-## 🆕 **Novedades de la V6**
-
 ### 👋 Bienvenidas y despedidas renovadas
 - Ahora la **bienvenida** y la **despedida** se activan **por separado**: `/bienvenida 1/0` y `/despedida 1/0`
 - Cada grupo puede poner **su propio texto**: `/setbienvenida` y `/setdespedida`
@@ -41,29 +24,6 @@
 - `/resetbienvenida`, `/resetdespedida`, `/configbienvenida` y `/avisosadmin 1/0` (avisa cuando alguien sube o baja de admin)
 - Arreglado: ya no hace falta que el bot sea admin para activarlas, los admins con LID ya son reconocidos, y si la imagen falla se envía el texto igual
 - Los grupos que tenían `/welcome 1` en la V5 se pasan solos al sistema nuevo
-
-### 🌐 Nuevos comandos con la API oficial ([api.naufrabot.com](https://api.naufrabot.com))
-| Comando | Qué hace |
-|---|---|
-| `/hd` | Mejora una imagen a HD |
-| `/removebg` | Quita el fondo de una imagen |
-| `/imagine` | Crea imágenes con IA |
-| `/llama` | Pregúntale a Llama IA |
-| `/buscarsticker` | Busca stickers por nombre |
-| `/attp4` `/attp5` `/attp6` | Más estilos de texto a sticker |
-| `/clima` | Clima de cualquier ciudad |
-| `/mareas` | Estado del mar y mareas |
-| `/perfilff` | Perfil de Free Fire por UID |
-| `/clanff` | Información de un clan de Free Fire |
-| `/nivel` | Tarjeta de nivel con imagen |
-
-Si el bot no tiene la clave puesta, estos comandos responden explicando cómo conseguirla.
-
-### 🛠️ Correcciones
-- `/attp`, `/attp2` y `/attp3` no funcionaban (el prefijo se colaba en la URL de la API)
-- El **antilink** solo revisaba mensajes que empezaban con el prefijo; ahora revisa todos
-- `/unbangp` daba error y no se podía usar dentro del grupo baneado
-- La información de los grupos se quedaba guardada para siempre (si hacías admin al bot no lo notaba hasta reiniciar)
 
 > [!TIP]
 > Para `/hd`, `/removebg` y `/setfotobienvenida` el bot sube la imagen a internet. Funciona sin configurar nada (usa catbox.moe), pero si quieres puedes poner tu clave gratis de [imgbb.com](https://imgbb.com) en `IMGBB_KEY` dentro de `settings/settings.json`.
