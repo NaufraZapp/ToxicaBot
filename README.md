@@ -6,7 +6,7 @@
   <img src="https://i.postimg.cc/SK086jrT/67a51f36-72b2-4a2b-b8e1-9de15d2bb52c.png" width="300" alt="NaufraBot V6" />
 </p>
 
-<p align="center">Bot de WhatsApp <b>femenino</b>, basado en NaufraBot Base V6.</p>
+<p align="center">Bot de WhatsApp <b>femenino</b>, 100% Editable.</p>
 
 ---
 
@@ -52,11 +52,11 @@ termux-setup-storage
 ```
 
 ```bash
-cd /sdcard && git clone https://github.com/NaufraZapp/Naufrabot-base
+cd /sdcard && git clone https://github.com/NaufraZapp/ToxicaBot
 ```
 
 ```bash
-cd Naufrabot-base
+cd ToxicaBot
 ```
 
 ```bash
@@ -75,7 +75,7 @@ npm start
 ```bash
 sudo apt update -y && sudo apt upgrade -y
 sudo apt install -y git ffmpeg tesseract-ocr wget && cd ~
-git clone https://github.com/NaufraZapp/Naufrabot-base && cd Naufrabot-base
+git clone https://github.com/NaufraZapp/ToxicaBot && cd ToxicaBot
 ```
 
 ```bash
